@@ -9,6 +9,13 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 
+/**
+ * Класс, представляющий собой описание команды serverinfo,
+ * осуществляющей отображение информации о текущем сервере
+ *
+ * @version 1.0
+ * @author Krupoderov Mikhail
+ */
 public class ServerInfo  extends Command {
 
         public ServerInfo() {

@@ -3,6 +3,13 @@ package com.krupoderov.discordbot.commands;
 import net.dv8tion.jda.core.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+
+/**
+ * Класс, представляющий собой описание команды "Калькулятор"
+ *
+ * @version 1.0
+ * @author Krupoderov Mikhail
+ */
 public class CalculateCommand extends ListenerAdapter {
 
     @Override

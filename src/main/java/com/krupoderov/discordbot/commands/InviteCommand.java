@@ -3,6 +3,13 @@ package com.krupoderov.discordbot.commands;
 import net.dv8tion.jda.core.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+/**
+ * Класс, представляющий собой описание команды invite,
+ * осуществляющей создание приглашения на текущий сервер
+ *
+ * @version 1.0
+ * @author Krupoderov Mikhail
+ */
 /* Создание ссылки приглашения на текущий сервер */
 public class InviteCommand extends ListenerAdapter {
 

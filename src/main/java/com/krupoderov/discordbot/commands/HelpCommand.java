@@ -8,6 +8,12 @@ import java.awt.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Класс, представляющий собой описание команды "Помощь"
+ *
+ * @version 1.0
+ * @author Krupoderov Mikhail
+ */
 public class HelpCommand extends Command {
 
     public HelpCommand() {

@@ -3,6 +3,13 @@ package com.krupoderov.discordbot.commands.filter;
 import net.dv8tion.jda.core.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+/**
+ * Класс, в котором происходит описание команд включения и выключения предупреждающего сообщения
+ * в случае употребления запрещенных слов
+ *
+ * @version 1.0
+ * @author Krupoderov Mikhail
+ */
 public class FilterMessage extends ListenerAdapter {
 
     public static boolean allowed = true;

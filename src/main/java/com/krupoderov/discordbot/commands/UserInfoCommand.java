@@ -9,8 +9,13 @@ import java.awt.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/* Команда для отображения информации о выбранном участнике */
-/* Появляется ошибка NullPointerException, если никнейм содержит больше одного слова */
+/**
+ * Класс, представляющий собой описание команды "Инфомация о пользователе"
+ * Появляется ошибка NullPointerException, если никнейм содержит больше одного слова(исправление не найдено)
+ *
+ * @version 1.0
+ * @author Krupoderov Mikhail
+ */
 public class UserInfoCommand extends ListenerAdapter {
 
     @Override

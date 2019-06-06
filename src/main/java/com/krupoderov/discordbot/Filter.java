@@ -7,6 +7,12 @@ import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
 import static com.krupoderov.discordbot.commands.filter.FilterMessage.allowed;
 
+/**
+ * В данном классе происходит описание "фильтра запрещенных слов"
+ *
+ * @version 1.0
+ * @author Krupoderov Mikhail
+ */
 public class Filter extends ListenerAdapter {
 
     @Override

@@ -3,6 +3,13 @@ package com.krupoderov.discordbot.commands.filter;
 import net.dv8tion.jda.core.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+/**
+ * Класс, в котором происходит описание команд для включения и выключения
+ * фильтра запрещенных слов
+ *
+ * @version 1.0
+ * @author Krupoderov Mikhail
+ */
 public class FilterSwitch extends ListenerAdapter {
 
     public static boolean filterOn = true;

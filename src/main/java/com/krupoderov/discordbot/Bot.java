@@ -13,6 +13,12 @@ import net.dv8tion.jda.core.entities.Game;
 
 import javax.security.auth.login.LoginException;
 
+/**
+ * В данном классе происходит сборка бота и добавление в него команд
+ *
+ * @version 1.0
+ * @author Krupoderov Mikhail
+ */
 public class Bot {
 
     private Bot() {
