@@ -1,4 +1,4 @@
-# alistair-discord-java-bot
+# alistair discord java bot
 Discord bot using JDA
 
 
